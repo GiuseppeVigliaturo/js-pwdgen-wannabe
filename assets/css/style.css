@@ -1,15 +1,35 @@
 body{
-  background: rgb(65, 156, 97);
+  background: rgb(84, 157, 102);
+
 }
 .container{
+  width: 600px;
+  height: 300px;
+
   display: flex;
   flex-direction: column;
   position: absolute;
-  top:50%;
+  top:60%;
   left:50%;
   transform: translate(-50%,-50%);
 }
 
 #ciao{
-  text-align: center;
+text-align: center;
+font-size: 25px;
+color: white;
+}
+
+#password{
+position: relative;
+font-size: 40px;
+color: white;
+}
+
+
+.container:hover{
+  background-image: url("../img/anonymous.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
