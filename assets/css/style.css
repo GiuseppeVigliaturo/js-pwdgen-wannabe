@@ -1,0 +1,15 @@
+body{
+  background: rgb(65, 156, 97);
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+#ciao{
+  text-align: center;
+}
